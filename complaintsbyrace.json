@@ -1,0 +1,434 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zpxx-ap9z",
+      "name" : "Office of Citizen Complaints Complainants by Race/Ethnicity - 2004-9",
+      "attribution" : "Office of Citizen Complaints",
+      "attributionLink" : "http://sf-police.org/index.aspx?page=1631",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1321576284,
+      "description" : "Year-end overview(s) of complaints received by complainants' race/ethnicity. OCC investigates citizen complaints of police misconduct against SFPD officers.",
+      "displayType" : "table",
+      "downloadCount" : 59,
+      "indexUpdatedAt" : 1407514749,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 568065,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1333336751,
+      "publicationGroup" : 253398,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1333336747,
+      "rowsUpdatedBy" : "eudm-snef",
+      "tableId" : 309458,
+      "totalTimesRated" : 0,
+      "viewCount" : 636,
+      "viewLastModified" : 1407514743,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 7211894,
+        "name" : "Race",
+        "dataTypeName" : "text",
+        "fieldName" : "race",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1693562,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "African-American",
+          "null" : 0,
+          "largest" : "Other",
+          "top" : [ {
+            "count" : 20,
+            "item" : "African-American"
+          }, {
+            "count" : 19,
+            "item" : "Asian-American"
+          }, {
+            "count" : 18,
+            "item" : "Blank or Declined to State"
+          }, {
+            "count" : 17,
+            "item" : "Caucasian/White"
+          }, {
+            "count" : 16,
+            "item" : "Latino/a/Hispanic"
+          }, {
+            "count" : 15,
+            "item" : "Native American/Pacific Islander"
+          }, {
+            "count" : 14,
+            "item" : "Other"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 7211895,
+        "name" : "2004",
+        "dataTypeName" : "percent",
+        "fieldName" : "_1",
+        "position" : 3,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1693563,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "0.83",
+          "sum" : "100.01",
+          "null" : 0,
+          "average" : "14.28714285714286",
+          "largest" : "33.96",
+          "top" : [ {
+            "count" : 20,
+            "item" : "33.96"
+          }, {
+            "count" : 19,
+            "item" : "4.60"
+          }, {
+            "count" : 18,
+            "item" : "16.51"
+          }, {
+            "count" : 17,
+            "item" : "32.31"
+          }, {
+            "count" : 16,
+            "item" : "9.91"
+          }, {
+            "count" : 15,
+            "item" : "0.83"
+          }, {
+            "count" : 14,
+            "item" : "1.89"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 7211896,
+        "name" : "2005",
+        "dataTypeName" : "percent",
+        "fieldName" : "_2",
+        "position" : 4,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1693564,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "0.85",
+          "sum" : "100.00",
+          "null" : 0,
+          "average" : "14.28571428571429",
+          "largest" : "30.43",
+          "top" : [ {
+            "count" : 20,
+            "item" : "30.43"
+          }, {
+            "count" : 19,
+            "item" : "6.26"
+          }, {
+            "count" : 18,
+            "item" : "19.09"
+          }, {
+            "count" : 17,
+            "item" : "30.33"
+          }, {
+            "count" : 16,
+            "item" : "10.18"
+          }, {
+            "count" : 15,
+            "item" : "0.85"
+          }, {
+            "count" : 14,
+            "item" : "2.86"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 7211897,
+        "name" : "2006",
+        "dataTypeName" : "percent",
+        "fieldName" : "_3",
+        "position" : 5,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1693565,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "1.39",
+          "sum" : "100.00",
+          "null" : 0,
+          "average" : "14.28571428571429",
+          "largest" : "33.76",
+          "top" : [ {
+            "count" : 20,
+            "item" : "33.76"
+          }, {
+            "count" : 19,
+            "item" : "6.96"
+          }, {
+            "count" : 18,
+            "item" : "19.26"
+          }, {
+            "count" : 17,
+            "item" : "26.33"
+          }, {
+            "count" : 16,
+            "item" : "9.98"
+          }, {
+            "count" : 15,
+            "item" : "1.39"
+          }, {
+            "count" : 14,
+            "item" : "2.32"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 7211898,
+        "name" : "2007",
+        "dataTypeName" : "percent",
+        "fieldName" : "_4",
+        "position" : 6,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1693566,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "1.09",
+          "sum" : "99.99",
+          "null" : 0,
+          "average" : "14.28428571428571",
+          "largest" : "28.40",
+          "top" : [ {
+            "count" : 20,
+            "item" : "25.82"
+          }, {
+            "count" : 19,
+            "item" : "6.85"
+          }, {
+            "count" : 18,
+            "item" : "28.40"
+          }, {
+            "count" : 17,
+            "item" : "25.12"
+          }, {
+            "count" : 16,
+            "item" : "9.43"
+          }, {
+            "count" : 15,
+            "item" : "1.09"
+          }, {
+            "count" : 14,
+            "item" : "3.28"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 7211899,
+        "name" : "2008",
+        "dataTypeName" : "percent",
+        "fieldName" : "_5",
+        "position" : 7,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1693567,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "1.84",
+          "sum" : "99.99",
+          "null" : 0,
+          "average" : "14.28428571428571",
+          "largest" : "27.99",
+          "top" : [ {
+            "count" : 20,
+            "item" : "27.72"
+          }, {
+            "count" : 19,
+            "item" : "5.52"
+          }, {
+            "count" : 18,
+            "item" : "21.73"
+          }, {
+            "count" : 17,
+            "item" : "27.99"
+          }, {
+            "count" : 16,
+            "item" : "11.88"
+          }, {
+            "count" : 15,
+            "item" : "1.84"
+          }, {
+            "count" : 14,
+            "item" : "3.31"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 7211900,
+        "name" : "2009",
+        "dataTypeName" : "percent",
+        "fieldName" : "_6",
+        "position" : 8,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1693568,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "1.56",
+          "sum" : "100.01",
+          "null" : 0,
+          "average" : "14.28714285714286",
+          "largest" : "32.30",
+          "top" : [ {
+            "count" : 20,
+            "item" : "28.45"
+          }, {
+            "count" : 19,
+            "item" : "6.13"
+          }, {
+            "count" : 18,
+            "item" : "15.37"
+          }, {
+            "count" : 17,
+            "item" : "32.30"
+          }, {
+            "count" : 16,
+            "item" : "12.17"
+          }, {
+            "count" : 15,
+            "item" : "1.56"
+          }, {
+            "count" : 14,
+            "item" : "4.03"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Department Metrics" : {
+            "Publishing Department" : "Citizen Complaints"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "r5xg-52kx",
+        "displayName" : "Liz",
+        "screenName" : "Liz"
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "r5xg-52kx",
+        "displayName" : "Liz",
+        "screenName" : "Liz"
+      },
+      "tags" : [ "office of citizen complaints", "police commission", "civilian oversight", "police misconduct", "complaints against police" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 2, "B0951562-2879-4B67-8B1F-EEEE6330DE8B", 2, 1321576304, "390036", 1321576304, "390036", "{\n}", "African-American", "33.96", "30.43", "33.76", "25.82", "27.72", "28.45" ]
+, [ 3, "15DF5151-DDCA-4030-A43F-575079863606", 3, 1321576304, "390036", 1321576304, "390036", "{\n}", "Asian-American", "4.60", "6.26", "6.96", "6.85", "5.52", "6.13" ]
+, [ 4, "47F8F718-E4CF-4F5E-A2A7-14287024D68F", 4, 1321576304, "390036", 1321576304, "390036", "{\n}", "Blank or Declined to State", "16.51", "19.09", "19.26", "28.40", "21.73", "15.37" ]
+, [ 5, "ADE0B696-F798-41FC-A7F2-981DADB0DA52", 5, 1321576304, "390036", 1321576304, "390036", "{\n}", "Caucasian/White", "32.31", "30.33", "26.33", "25.12", "27.99", "32.30" ]
+, [ 6, "C0A6F1E9-A597-465F-B5B1-2FBB7F16E49B", 6, 1321576304, "390036", 1321576304, "390036", "{\n}", "Latino/a/Hispanic", "9.91", "10.18", "9.98", "9.43", "11.88", "12.17" ]
+, [ 7, "78619603-97BD-4F8F-A14E-038B85520BC6", 7, 1321576304, "390036", 1321576304, "390036", "{\n}", "Native American/Pacific Islander", "0.83", "0.85", "1.39", "1.09", "1.84", "1.56" ]
+, [ 8, "9A5F663D-B49E-438E-8728-6B7CC7A033D9", 8, 1321576304, "390036", 1321576304, "390036", "{\n}", "Other", "1.89", "2.86", "2.32", "3.28", "3.31", "4.03" ]
+ ]
+}
