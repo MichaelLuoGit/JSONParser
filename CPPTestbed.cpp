@@ -40,12 +40,10 @@ int main() {
 				cout << "" <<endl;
 			}
 			
-			//const char* cmarker = marker.c_str();
 			if (!bUsefulInfo && complaints[i][y].IsString())
 			{
-				std::string marker("{\n}");
 				std::string jsonString(complaints[i][y].GetString());
-				if (marker.compare(jsonString) == 0)
+				if (jsonString.compare("{\n}") == 0)
 				{
 					bUsefulInfo = true;
 				}
