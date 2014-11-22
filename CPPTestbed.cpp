@@ -37,7 +37,8 @@ int main() {
 			if (bUsefulInfo && complaints[i][y].IsString() == 1 )
 			{
 				cout << complaints[i][y].GetString();
-				cout << "" <<endl;
+				cout << "\t";
+				
 			}
 			
 			if (!bUsefulInfo && complaints[i][y].IsString())
@@ -50,7 +51,7 @@ int main() {
 
 			}
 		}
-		
+		cout << "" <<endl;
 		/*
 		std::cout << complaints[i]["colorName"].GetString();
 		std::cout << "\t";
