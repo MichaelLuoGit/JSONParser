@@ -15,24 +15,49 @@ using namespace rapidjson;
 
 int main() {
 	//Read crap into a file
-	std::ifstream infile("colours.json");
+	std::ifstream infile("complaintsbyrace.json");
 	std::stringstream strStream;
 	strStream << infile.rdbuf();
 	std::string json = strStream.str();
-	std::cout << json<<endl;
+	//std::cout << json<<endl;
 
 	
 	//Do stuff with json
 	Document d;
 	d.Parse<0>(json.c_str()).HasParseError();
-	const Value& colours = d["colorsArray"];
-	assert(colours.IsArray());
-	std::cout << "Colour:\tHex:" <<endl;
-	for (SizeType i = 0; i < colours.Size(); i++)
+	const Value& complaints = d["data"];
+	//assert(complaints.IsArray());
+	//std::cout << "Colour:\tHex:" <<endl;
+	for (SizeType i = 0; i < complaints.Size(); i++)
 	{
-		std::cout << colours[i]["colorName"].GetString();
+		//We do not want to print anything before the "/n" 
+		bool bUsefulInfo = false;
+		for (SizeType y = 0; y < complaints[i].Size(); y++)
+		{
+			if (bUsefulInfo && complaints[i][y].IsString() == 1 )
+			{
+				cout << complaints[i][y].GetString();
+				cout << "" <<endl;
+			}
+			
+			//const char* cmarker = marker.c_str();
+			if (!bUsefulInfo && complaints[i][y].IsString())
+			{
+				std::string marker("{\n}");
+				std::string jsonString(complaints[i][y].GetString());
+				if (marker.compare(jsonString) == 0)
+				{
+					bUsefulInfo = true;
+				}
+
+			}
+		}
+		
+		/*
+		std::cout << complaints[i]["colorName"].GetString();
 		std::cout << "\t";
-		std::cout << colours[i]["hexValue"].GetString()<<endl;
+		std::cout << complaints[i]["hexValue"].GetString()<<endl;
+		*/
 	}
 	//Use this to store information and eventually print it
 	//std::vector<string> colourInformation;
@@ -41,6 +66,7 @@ int main() {
  //   Writer<StringBuffer> writer(buffer);
  //   d.Accept(writer);
 	//std::cout << colours[0]["colorName"].GetString();
-	_sleep(10000);
+	cin.ignore();
+
     return 0;
 }
